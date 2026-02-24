@@ -34,4 +34,6 @@ app.delete("/alumnos/:id", (req, res) => {
     res.json({ ok: true });
 });
 
-app.listen(3000, () => console.log("🔥 Server corriendo en puerto 3000"));
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => console.log(`🔥 Server corriendo en puerto ${PORT}`));
