@@ -129,7 +129,7 @@ function limpiarFormulario() {
    CLIMA
 ========================= */
 
-const API_KEY = "TU_API_KEY_AQUI"; // 👈 si querés mantener clima
+const API_KEY = "c994346ab2c3cbe94efa69fe447a97d6"; // 👈 si querés mantener clima
 
 async function clima(ciudad = "Buenos Aires") {
 
